@@ -3,7 +3,7 @@ import { useParams } from "react-router";
  
 const Coloredwords = (props) => {
   const { word,fontColor,background }  = useParams();
-    //
+    
    
       const myStyle = {
         color: fontColor,

@@ -24,11 +24,11 @@ function App() {
        <Route exact path="/home">
           <Home />
         </Route>
-        {/* <Switch>
+        <Switch>
         <Route path="/:parameter">
           <Numbers />
         </Route>
-      </Switch> */}
+      </Switch>
       <Switch>
         <Route path="/:word/:color/:background">
           <Coloredwords />
